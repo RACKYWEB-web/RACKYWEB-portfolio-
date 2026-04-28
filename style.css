@@ -212,3 +212,14 @@ input.success {
     display: flex;   /* 🔥 SHOW WHEN CLICKED */
   }
 }
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+      }
