@@ -11,6 +11,7 @@ body {
     color: white;
     padding: 20px;
     line-height: 1.6;
+    animation: fadeup 1s ease 1s both;
 }
 
 /* NAVBAR */
