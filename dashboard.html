@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+
+  <h1 id="welcome"></h1>
+
+  <button class="logout-btn" onclick="logout()">Logout</button>
+
+  <script>
+    let name = localStorage.getItem("username");
+
+    if (name) {
+      document.getElementById("welcome").innerText =
+        "Welcome " + name +" 🎉";
+    } else {
+      document.getElementById("welcome").innerText =
+        "Welcome Guest";
+    }
+
+    function logout() {
+      localStorage.removeItem("username");
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>
