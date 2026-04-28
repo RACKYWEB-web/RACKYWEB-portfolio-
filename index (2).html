@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racky Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+<nav>
+  <h2 class="logo">Racky</h2>
+
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+<ul class="nav-links" id="navLinks">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Skills</a></li>
+  <li><a href="#">Edu Info</a></li>
+  <li><a href="#">Settings</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+    </div>
+  </nav>
+  
+
+  <!-- HERO -->
+  <section id="home" class="container">
+    <h1>Hi, I'm Racky 👋</h1>
+    <p>A passionate full-stack developer building modern websites with HTML, CSS, and JavaScript, Node.js etc</p>
+
+    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=800&q=80">
+
+    <a href="https://google.com" target="_blank">Visit My Work</a>
+  </section>
+
+  <hr>
+
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am Racky from Imo State, Nigeria. I enjoy building websites, learning coding,
+      and improving my web development skills daily.
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ol>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+    </ol>
+  </section>
+  <hr>
+  <!-- Education -->
+  <section id="education " class="container">
+    <h3>Education </h3>
+    <p>Racky has pased through several educational background but currently a student of the federal university of technology Owerri as a student engineer. </p>
+    <ol>
+      <li>first basic school: 2010</li>
+      <li>secondary education: 2016</li>
+      <li>worked for about: 2 years</li>
+      <li>tertiary institution: as a student engineer of CHEMICAL ENGINEERING</li>
+      <a href="https://google.com" target="_blank"> know more about my education</a>
+    </ol>
+  </section>
+
+  <hr>
+
+  <!-- CONTACT FORM -->
+  <section id="contact" class="container">
+    <h2>Contact / Register</h2>
+
+    <input type="text" id="username" placeholder="Enter your name">
+    <small id="nameError"></small>
+
+    <input type="email" id="email" placeholder="Enter your email">
+    <small id="emailError"></small>
+
+    <input type="password" id="password" placeholder="Enter your password">
+    <small id="passwordError"></small>
+
+    <button onclick="showMessage()">Submit</button>
+
+    <p id="message"></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Racky Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>  
