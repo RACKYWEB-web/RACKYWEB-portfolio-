@@ -84,6 +84,9 @@ a {
 a:hover {
     color: red;
 }
+html {
+    scroll behavior: smooth;
+}
 
 /* LIST */
 ol {
