@@ -75,3 +75,10 @@ if (isValid) {
 function toggleMenu() {
   document.getElementById("navLinks").classList.toggle("show");
 }
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("https://rackyweb-portfolio-2.onrender.com/api/message")
+    .then(res => res.json())
+    .then(data => {
+      console.log(data);
+    });
+});
