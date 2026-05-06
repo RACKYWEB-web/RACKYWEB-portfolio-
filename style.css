@@ -91,14 +91,19 @@ html {
 /* LIST */
 ol {
     margin: 10px 0 20px 20px;
+    font-size: 10px;
+    padding: auto;
 }
 
 /* SECTION TITLE */
 h2 {
-    margin: 15px 0;
+    font-size: 40px;
+    margin: 10px 0;
+    text-align: center;
+    padding: auto;
 }
 h3 {
-  font-size: 80px;
+  font-size: 40px;
   text-align: center;
   margin: 10px 0;
   padding: auto;
